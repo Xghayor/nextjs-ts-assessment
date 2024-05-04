@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #000;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul,li{
+  padding: 0;
+  margin:0 ;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.site_container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
