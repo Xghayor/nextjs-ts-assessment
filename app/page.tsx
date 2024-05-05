@@ -12,7 +12,7 @@ export default function App() {
     <Banner />
     <CreonPass />
     <Profiting />
-    <Vision/>
+    <Vision />
     </>
   );
 }
