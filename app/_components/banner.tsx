@@ -1,14 +1,12 @@
-
-
-const Banner = () => {
+export default function Banner(){
   return (
-    <section className="h-screen relative overflow-hidden">
-      <div className="site_container mx-auto p-4 pt-40">
-        <div className="banner_content pt-xxxl py-[400px]">
-          <h1 className="text-7xl uppercase text-white mb-10">
+    <section className="h-screen relative overflow-hidden ">
+      <div className="site_container mx-auto p-4 pt-20 md:pt-40  w-full">
+        <div className="banner_content pt-xxl md:py-[400px]">
+          <h1 className="text-[68px] uppercase text-white mb-6 md:mb-10 heading-font">
             The world's first <br /> platform for tokenizing <br /> AI Blockchain projects
           </h1>
-          <h3 className="text-xl font-bold text-[#A429FF]">
+          <h3 className="text-[22px] sub-heading">
             Hold The Creon Pass NFT and earn passive income from AI Tools
           </h3>
         </div>
@@ -29,5 +27,3 @@ const Banner = () => {
     </section>
   );
 };
-
-export default Banner;
