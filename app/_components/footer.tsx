@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="powered-by flex items-center">
             <h6 className="text-white font-normal text-sm">Powered by</h6>
             <a className="inline-block ml-2" href="#">
-              <Image src={nft} alt="" width={20} height={20} />
+              <Image src={nft} alt="" />
             </a>
           </div>
         </div>
